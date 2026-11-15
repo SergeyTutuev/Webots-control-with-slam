@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" vClass="passenger" maxSpeed="20" color="1,0,0"/>
+    <route id="loop_route" edges="14 11 13 -13 -11 -14 -20 -17 10 4 -3 2 -1 0 24 22 21 -18 -12 12 18 -21 -22 -24 -0 1 -2 3 -4 -10 17 16 -19 15 -15 19 -16 20 14"/>
+    <vehicle id="loop_car" type="passenger" route="loop_route" depart="0" departPos="0" departSpeed="max" arrivalPos="max"/>
+</routes>
