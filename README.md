@@ -1,4 +1,4 @@
-# Webots Control with SLAM 🤖🗺️
+# Webots Control with SLAM 🤖
 
 [![ROS 2](https://img.shields.io/badge/ROS-2-blue)](https://docs.ros.org/)
 [![Webots](https://img.shields.io/badge/Webots-R2023b-green)](https://cyberbotics.com/)
@@ -25,7 +25,7 @@
 - **ROS 2** (Humble или новее)
 - **Webots** (R2023b или новее)
 - Пакет `webots_ros2` (устанавливается отдельно)
-- Python (>3.8) (numpy, rclpy)
+- Python (>3.8) (numpy, rclpy, cv_bridge)
   
 ### Сборка пакета
 
